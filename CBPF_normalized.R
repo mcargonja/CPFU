@@ -267,7 +267,8 @@ CBPF_normalized <- function(data, sectors=16, ws='ws', wd='wd',
   # ordering the data:
   CPF <- CPF[order(CPF$wd, CPF$ws),]
   rownames(CPF) <- NULL
-  
+
+  # the function returns the plot or the table, as chosen by the user:
   if(plot==TRUE){
     return(p)
   } 
