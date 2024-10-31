@@ -287,7 +287,8 @@ CBPF_intervals <- function(data, sectors=16, ws='ws', wd='wd',
   # ordering the data:
   CPF <- CPF[order(CPF$wd, CPF$ws),]
   rownames(CPF) <- NULL
-  
+
+  # the function returns the plot or the table, as chosen by the user:
   if(plot==TRUE){
     return(ggarrange(p1, p2, ncol=1, heights=c(2, 360/(4*angle))))
   } 
