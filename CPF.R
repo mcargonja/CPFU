@@ -255,7 +255,8 @@ CPF <- function(data, sectors=16, ws='ws', wd='wd',
     annotate('text', x =315, y = my_breaks, label = my_breaks, size = 9*5/14) +
     theme(axis.text.y = element_blank(), 
           axis.ticks.y = element_blank())
-  
+
+  # the function returns the plot or the table, as chosen by the user:
   if(plot==TRUE)  return(p)
   else return(CPF)
 }
