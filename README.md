@@ -174,7 +174,7 @@ The uncertainties are included in the grapg created with `CBPF_intervals()` func
 ```R
 CBPF_intervals(mydata, pollutant = "PM", remove_speed = 2, speed_interval = 4, speed_unit = "knots")
 ```
-![Example of a bivariate CPF graph with uncertainties, plotted with `CBPF\_intervals` function](https://github.com/mcargonja/CPFU/blob/c49077a3ccc9a772645b6b522a8b51a418712a98/example_CBPF_intervals.jpg)
+![Example of a bivariate CPF graph with uncertainties, plotted with `CBPF\_intervals` function](https://github.com/mcargonja/CPFU/blob/b00790a591839d6ceebe813eec73cd6e85548d70/example_CBPF_intervals.jpg)
 ```R
 # Confidence intervals from bootstrapping:
 CBPF_intervals(mydata, pollutant = "PM", remove_speed = 2, speed_interval = 4, speed_unit = "knots", intervals = "bootstrap")
