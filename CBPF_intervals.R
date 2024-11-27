@@ -276,7 +276,7 @@ CBPF_intervals <- function(data, sectors=16, ws='ws', wd='wd',
                        breaks=c("CPF", as.character(a)))+
     scale_fill_manual(name="",values=c("grey"), breaks=c(paste(conf_perc, "%", " CI",
                                                                     sep="")))+
-    labs(x=paste("v/", speed_unit, sep=""))+
+    labs(x=paste("v/", speed_unit, sep=""), y="")+
     theme_minimal()+
     theme(legend.position="bottom")
   
