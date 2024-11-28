@@ -247,7 +247,7 @@ CBPF_normalized <- function(data, sectors=16, ws='ws', wd='wd',
                                 paste("v/",speed_unit,sep="")),
                        limits=c(-angle/2,(360-(angle/2))))+
     scale_y_continuous(breaks=my_breaks, limits=c(0,NA))+
-    scale_fill_gradientn(
+    scale_fill_gradientn(name = expression(CPF[n]),
       colors=c("blue","grey", "grey85","grey", "red"),
       values=scales::rescale(c(min(CPF$CPF_n),-1,0,1,
                                max(CPF$CPF_n))))+
