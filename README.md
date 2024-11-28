@@ -185,4 +185,4 @@ CBPF_intervals(mydata, pollutant = "PM", remove_speed = 2, speed_interval = 4, s
 ```R
 CBPF_normalized(mydata, pollutant = "PM", remove_speed = 2, speed_interval = 4, speed_unit = "knots")
 ```
-![Example of a bivariate CPF graph normalized to uncertainties, plotted with `CBPF\_normalized` function](https://github.com/mcargonja/CPFU/blob/c49077a3ccc9a772645b6b522a8b51a418712a98/example_CBPF_normalized.jpg)
+![Example of a bivariate CPF graph normalized to uncertainties, plotted with `CBPF\_normalized` function](https://github.com/mcargonja/CPFU/blob/d632c282719f9dc0c83b3ac4190b7d0ea747c5d1/example_CBPF_normalized.jpg)
