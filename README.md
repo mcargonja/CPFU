@@ -161,7 +161,7 @@ CPF(mydata, pollutant = "PM", sectors = 32, remove_speed = 2)
 # Creating a data.frame instead of plotting a graph:
 CPF(mydata, pollutant = "PM", remove_speed = 2, plot = FALSE)
 
-# Setting the confidence level at 95\%:
+# Setting the confidence level at 95%:
 CPF(mydata, pollutant = "PM", remove_speed = 2, conf = 95)
 ```
 Bivariate CPF plots can be created using 3 different functions. The absic plot, without uncertainties, is created with `CBPF()`:
@@ -170,7 +170,7 @@ Bivariate CPF plots can be created using 3 different functions. The absic plot, 
 CBPF(mydata, pollutant = "PM", remove_speed = 2, speed_interval = 4, speed_unit = "knots")
 ```
 ![Example of a bivariate CPF graph without uncertainties, plotted with `CBPF` function](https://github.com/mcargonja/CPFU/blob/c49077a3ccc9a772645b6b522a8b51a418712a98/example_CBPF.jpg)
-The uncertainties are included in the grapg created with `CBPF_intervals()` function:
+The uncertainties are included in the graph created with `CBPF_intervals()` function:
 ```R
 CBPF_intervals(mydata, pollutant = "PM", remove_speed = 2, speed_interval = 4, speed_unit = "knots")
 ```
