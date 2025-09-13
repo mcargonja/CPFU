@@ -150,7 +150,7 @@ File `mydata.csv` from this repository can be used to test the functions. In thi
 mydata <- read.csv("mydata.csv")
 CPF(mydata, pollutant = "PM", remove_speed = 2)
 ```
-![Example of a CPF graph plotted with `CPF` function](https://github.com/mcargonja/CPFU/blob/c49077a3ccc9a772645b6b522a8b51a418712a98/example_CPF.jpg)
+![Example of a CPF graph plotted with `CPF` function(https://github.com/mcargonja/CPFU/blob/db6cb2737a368e6f65470173fb2c758439ddab1d/example_CPF.jpg)
 ```R
 # Using the bootstrap method for uncertainty intervals:
 CPF(mydata, pollutant = "PM", remove_speed = 2, intervals = "bootstrap")
