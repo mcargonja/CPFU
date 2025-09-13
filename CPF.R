@@ -243,8 +243,8 @@ CPF <- function(data, sectors=16, ws='ws', wd='wd',
     # broj događaja u segmentu:
     #annotate("text", x=CPF$wd-angle/2, y=0.6, label=CPF$n)+
     scale_x_continuous(breaks=seq(0, 270, by=90),
-                       labels=c("N","W",
-                                "S","E"),
+                       labels=c("N","E",
+                                "S","W"),
                        limits=c(-angle/2,(360-(angle/2))))+
     scale_y_continuous(breaks=my_breaks, limits=c(0,NA))+
     scale_color_manual(name="",breaks=c(as.character(a), "CPF"),
@@ -260,3 +260,4 @@ CPF <- function(data, sectors=16, ws='ws', wd='wd',
   if(plot==TRUE)  return(p)
   else return(CPF)
 }
+
